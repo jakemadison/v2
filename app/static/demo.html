@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />-->
+      <title>Title here</title>
+      <!-- Bootstrap CSS-->
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="jquery-ui-1.11.4/jquery-ui.min.css">
+      <!-- BootFlat CSS -->
+      <!--<link rel="stylesheet" href="bootflat/css/bootflat.css">-->
+      <!-- Demo CSS Overrides -->
+      <link rel="stylesheet" type="text/css" href="demo.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <!-- CUSTOMIZABLE SECTIONS -->
+      <div id="instructionsTemplate" style="display:none">
+
+      </div>
+      <div id="_dialogs" style="display:none">
+          <div id="whichUserDialog" title="Who is it?">
+              Is this the actual profile user or a different user?
+          </div>
+      </div>
+      <div id="incorrectCredentialsTemplate" style="display:none">
+         Please enter username and password
+      </div>
+      <div id="graphTitle" style="display:none">Different Users Behave Differently</div>
+      <div id="graphSubtitle" style="display:none">Verify the user by their behavior</div>
+      <!-- END CUSTOMIZABLE SECTIONS -->
+      <header id="header" class="navbar navbar-inverted navbar-static-top">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <div class="navbar-brand">
+                  <img id="headerLogo" src="img/ndlogo.png" class="img-responsive">
+               </div>
+               <div class="navbar-brand">
+                  Profile: <span id="lblActiveProfile"></span>
+               </div>
+            </div>
+            <nav class="collapse navbar-collapse bs-navbar-collapse">
+               <ul id='navHolder' class="nav navbar-nav navbar-right">
+                  <li><a id="btnSelect"  class="nav-link outline" type="button">Select</a></li>
+                  <li><a id="btnCreate"  class="nav-link outline" type="button">Create</a></li>
+                  <li><a id="btnTrain"   class="nav-link outline" type="button">Train</a></li>
+                  <li><a id="btnTest"    class="nav-link outline" type="button">Test</a></li>
+                   <li><a id="btnGetCSV"  class="nav-link outline" type="button">Get CSV</a></li>
+                  <!-- <li><a id="btnResults" class="nav-link outline" type="button">Results</a></li> -->
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <div id="body">
+         <div id="pageCreate" class="row">
+            <div class="container-fluid">
+               <div class="row">
+                  <!--left panel-->
+                  <div class="col-sm-6">
+                     <img src="img/intro.png" class="img-responsive">
+                  </div>
+                  <!--right panel-->
+                  <div class="col-sm-6">
+                     <h1>Create Profile</h1>
+                     <input type="text" id="profileName" class="form-control" name="profileName" placeholder="Profile Name" autocomplete="off"/>
+                     <input type="button" id="profileSubmit" class="btn btn-primary btn-block outline" name="profileSubmit" value="Submit"/> 
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--Page 2-->
+         <div id="pageInput" class="row">
+            <div class="container-fluid">
+               <div style="display:none" id='alert1' class="alert alert-danger alert-dismissible" ></div>
+               <!--new row-->
+               <div class="row">
+                  <!--left panel-->
+                  <div class="col-sm-6">
+                     <!--<img src="http://placehold.it/350x350" class="img-responsive">-->
+                     <div id="inputBG" class="panel panel-primary">
+                        <div  class="panel-heading">
+                           <h3 id="inputTitle">Placeholder Text</h3>
+                        </div>
+                        <div class="panel-body">
+                           <!--<img src="img/cart.png" class="img-responsive center-block">-->
+                        </div>
+                     </div>
+                  </div>
+                  <!--right panel-->
+                  <div class="col-sm-6">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h3>User Login</h3>
+                        </div>
+                        <div class="panel-body">
+                           <!--form 1-->
+                           <form method="post" name="form1" id="form1" class="form_class">
+                              <div class="form-group">
+                                 <label for="inputUsername">Username:</label>
+                                 <input type="text" class="form-control trackinput" name="username" id="inputUsername" autocomplete="off" />
+                              </div>
+                              <div class="form-group">
+                                 <label for="inputPassword">Password:</label>
+                                 <input type="password" class="form-control trackinput" name="password" id="inputPassword" autocomplete="off" />
+                              </div>
+                              <input type="button" class="btn btn-primary btn-block outline trackinput" name="submit" id="inputSubmit" value="Submit"/> 
+                           </form>
+                        </div>
+                     </div>
+                     <div class="panel panel-default">
+                        <div class="panel-body">
+                           <span class="instructionText"></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <div id="pageSelect" class="row">
+            <div class="container-fluid">
+               <!--new row-->
+               <div class="row">
+                  <!--left panel-->
+                  <div class="col-sm-12">
+                     <!--<img src="http://placehold.it/350x350" class="img-responsive">-->
+                     <div class="panel panel-primary">
+                        <div  class="panel-heading">
+                           <h3>Select Profile</h3>
+                        </div>
+                        <div class="panel-body">
+                           <ul id="profileList">
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="pageResults" class="row">
+            <div class="container-fluid">
+               <!--new row-->
+               <div class="row">
+                  <!--left panel-->
+                  <div class="col-sm-12">
+                     <!--<img src="http://placehold.it/350x350" class="img-responsive">-->
+                     <div class="panel panel-primary">
+                        <div  class="panel-heading">
+                           <h3>Results</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div id="biometricsScore" class="">
+                                <h2>Biometrics Score: <span class="label label-default" id="actualScore"></span></h2>
+                            </div>
+                            <hr>
+                            <div id="diagDetails">
+                            </div>
+                            <!--<div id="actualScoreDiv"></div>-->
+                            <div id="scoreContainer" class="pull-right"></div>
+
+                            <div id="model_chart_container" class="pull-right"></div>
+
+                            <div class="full_response_detail">
+                                Full Response:<br>
+                                <textarea style="width:800px;height:800px;" id="devlog"></textarea>
+                            </div>
+                            <div id="graphContainer" style="display:none;width:800px;height:600px;margin:auto"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <footer id="footer" class="row">
+            <div class="container-fluid"></div>
+         </footer>
+      </div>
+      </form>
+      <!--jQuery and Demo JS -->
+      <script src="jquery-2.1.3.min.js"></script>
+      <script src="jquery-ui-1.11.4/jquery-ui.min.js"></script>
+      <!--<script src="highcharts-custom.js"></script>-->
+      <script src="http://code.highcharts.com/highcharts.js"></script>
+     <script src="http://code.highcharts.com/highcharts-more.js"></script>
+      <script src="http://code.highcharts.com/modules/solid-gauge.js"></script>
+
+      <script src="demo.js"></script>
+      <!--Bootstrap and BootFlat Theme JS -->
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <!--
+         <script src="bootflat/js/icheck.min.js"></script>
+         <script src="bootflat/js/jquery.fs.selecter.min.js"></script>
+         <script src="bootflat/js/jquery.fs.stepper.min.js"></script>
+         -->
+   </body>
+</html>

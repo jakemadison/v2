@@ -1,0 +1,11 @@
+# Created by .gitignore support plugin (hsz.mobi)
+
+#Ignore temp stuff
+*.py[cod]
+
+#Ignore IDE stuff
+.idea/
+
+# Personal DB and DB backup
+db.sqlite3.bk
+db.sqlite3
