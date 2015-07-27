@@ -1,0 +1,350 @@
+{
+  "name": "flare",
+  "children": [
+    {
+      "name": "Jan",
+      "children": [
+        {
+          "name": "Week 1",
+          "children": [
+            {"name": "Monday",
+              "children": [{"name": "Cooked Dinner", "size": 200}]},
+
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 2",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 3",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 4",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Feb",
+      "children": [
+        {
+          "name": "Week 1",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 2",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 3",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 4",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Mar",
+      "children": [
+        {
+          "name": "Week 1",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 2",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 3",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 4",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Apr",
+      "children": [
+        {
+          "name": "Week 1",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 2",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 3",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 4",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "May",
+      "children": [
+        {
+          "name": "Week 1",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 2",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 3",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 4",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Jun",
+      "children": [
+        {
+          "name": "Week 1",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 2",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 3",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        },
+
+        {
+          "name": "Week 4",
+          "children": [
+            {"name": "Monday", "size": 200},
+            {"name": "Tuesday", "size": 200},
+            {"name": "Wednesday", "size": 200},
+            {"name": "Thursday", "size": 200},
+            {"name": "Friday", "size": 200},
+            {"name": "Saturday", "size": 200},
+            {"name": "Sunday", "size": 200}
+          ]
+        }
+      ]
+    }
+
+  ]
+}
+
